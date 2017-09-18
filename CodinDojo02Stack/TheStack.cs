@@ -22,5 +22,7 @@ namespace CodinDojo02Stack
                 currentElement = temp;
             }
         }
+
+        
     }
 }
