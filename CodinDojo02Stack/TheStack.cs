@@ -23,6 +23,26 @@ namespace CodinDojo02Stack
             }
         }
 
-        
+        public T Pop()
+        {
+            if (currentElement != null)
+            {
+                T temp = currentElement.ValueOfElement;
+                currentElement = currentElement.successor;
+                return temp;
+            }
+            else
+            {
+                throw new NullReferenceException();
+            }
+        }
+
+        public T Peek()
+        {
+            if (currentElement != null)
+            {
+
+            }
+        }
     }
 }
