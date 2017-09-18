@@ -41,7 +41,11 @@ namespace CodinDojo02Stack
         {
             if (currentElement != null)
             {
-
+                return currentElement.ValueOfElement;
+            }
+            else
+            {
+                return default(T);
             }
         }
     }
