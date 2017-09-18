@@ -10,7 +10,7 @@ namespace CodinDojo02Stack
     {
         private StackElement<T> currentElement;
 
-        public void push(T item)
+        public void Push(T item)
         {
             if (currentElement == null)
             {
